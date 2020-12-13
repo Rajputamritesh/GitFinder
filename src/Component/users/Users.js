@@ -45,7 +45,7 @@ const userStyleDisplaySec = {
     gridTemplateColumns: 'repeat(auto-fit,minmax(18rem, 1fr) )',
     gridGap: '1rem',
     overflow: 'scroll',
-    maxHeight: '500px',
+    maxHeight: '725px',
     overflowAnchor: 'auto',
     overflowX: 'hidden',
     width: '350px',
