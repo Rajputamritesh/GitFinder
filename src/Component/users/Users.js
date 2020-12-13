@@ -32,7 +32,8 @@ Users.propTypes = {
     loading: PropTypes.bool.isRequired
 }
 const details ={
-    marginLeft: 'auto'
+    marginLeft: 'auto',
+
 }
 const userStyle = {
     display: 'grid',
@@ -49,6 +50,5 @@ const userStyleDisplaySec = {
     overflowX: 'hidden',
     width: '350px',
     marginTop:'3%'
-
 }
 export default Users
