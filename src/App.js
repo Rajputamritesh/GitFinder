@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './Component/layout/Navbar';
 import Alert from './Component/layout/Alert';
 import Users from './Component/users/Users';
-import User from './Component/users/User';
 import Search from './Component/users/Search';
 import About from './Component/pages/About'
 import NotFound from './Component/pages/NotFound'

@@ -1,15 +1,10 @@
-import React, { useEffect, Fragment } from 'react'
+import React, { Fragment } from 'react'
 import Spinner from '../layout/Spinner'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
 import Repos from '../repos/Repos'
 
 const User = ({ user, match, getUser, getUserRepos, loading, repos}) => {
 
-    // componentDidMount (){
-    //     getUser(match.params.login)
-    //     getUserRepos(match.params.login)
-    // }
 
         const {login, avatar_url, html_url, public_repos, following, public_gists, followers, company, blog,  location, bio, hireable, name} = user
         if (loading) return <Spinner />
